@@ -37,9 +37,10 @@ h1 {
 .img-fluid {
 	float:left;
 	margin:14px;
+	margin-bottom: 36px;
+	margin-top:-1px;
 	width:30%;
-	height:75px;
-	float:left;
+	height:80px;
 }
 
 /* Buttons */
@@ -83,11 +84,12 @@ button {
 
 /* Jumbotron */
 .jumbotron { 
-	background:url(/images/header-bike.jpg);
 	color:white;
 	border-radius: 0;
 }
-
+.headerpic{
+	background: url(/Bikes-for-refugees/images/header-bike.jpg);
+}
 
 /* Headings */
 .heading-underline {
@@ -143,20 +145,18 @@ button {
 .article1 {
 	background-color: #d8d8d8;
 	padding:15px;
-	width:50%;
+	width:48%;
 	float:left;
 	border:1px solid #d8d8d8;
 	
 }
 .article2 {
-	margin-right:-15px;
     float:right;
-	width:50%;
+	width:48%;
 	padding:15px;
 	border:1px solid #d8d8d8;	
 	
 }
-
 /* Footer */
 .footer {
 	margin-top: 4em;
