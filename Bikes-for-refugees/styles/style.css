@@ -34,14 +34,6 @@ h1 {
  .nav-link:hover {
 	background-color: orange;
 }
-.img-fluid {
-	float:left;
-	margin:14px;
-	margin-bottom: 36px;
-	margin-top:-1px;
-	width:30%;
-	height:80px;
-}
 
 /* Buttons */
 /* INSERT BUTTON STYLES HERE */
@@ -86,9 +78,8 @@ button {
 .jumbotron { 
 	color:white;
 	border-radius: 0;
-}
-.headerpic{
-	background: url(/Bikes-for-refugees/images/header-bike.jpg);
+	background-image:
+	 url(/images/header-bike.jpg);
 }
 
 /* Headings */
@@ -114,8 +105,11 @@ button {
 }
 /* Article */
 .article {
-	margin-bottom: 2em;
-	float:left;
+	margin-bottom: 9px;
+	display:inline-block;
+}
+article > p {
+	display:flex;
 }
 
 .article__title {
@@ -145,16 +139,23 @@ button {
 .article1 {
 	background-color: #d8d8d8;
 	padding:15px;
-	width:48%;
+	width:49%;
 	float:left;
 	border:1px solid #d8d8d8;
 	
 }
 .article2 {
     float:right;
-	width:48%;
+	width:49%;
 	padding:15px;
 	border:1px solid #d8d8d8;	
+	
+}
+.img-fluid {
+	float:left;
+	margin-right:14px;
+	width:20%;
+	height:65px;
 	
 }
 /* Footer */
